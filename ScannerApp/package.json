@@ -19,7 +19,7 @@
     "react-dom": "^16.13.0",
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.0",
+    "react-scripts": "^3.4.4",
     "typescript": "3.8.3"
   },
   "scripts": {
@@ -43,5 +43,10 @@
       "last 1 safari version"
     ]
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  }
 }
