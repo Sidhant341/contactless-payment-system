@@ -30,12 +30,12 @@ div.login-page-form {
 }
 
 div.login-in-button {
+    margin: 0 auto;
     padding-top: 30%;
     width: 80%;
-    display: flex;
+    display: block;
     align-items: center; 
     justify-content: center;
-    /* display: inline; */
 }
 
 div.create-your-account {

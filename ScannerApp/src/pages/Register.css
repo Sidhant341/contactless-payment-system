@@ -37,16 +37,17 @@ div.register-in-button {
 }
 
 div.have-your-account {
-    margin: auto;
-    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    /* margin: auto; */
+    /* width: 100%; */
     padding-top: 1%;
-    text-align: center;
+    /* text-align: center; */
 }
 
 span.have-your-account {
-    color: blue;
     font-weight: bold;
-    display: inline;
 }
 
 .terms-and-conditions {

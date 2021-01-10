@@ -47,7 +47,7 @@ const Register: React.FC = () => {
         </div>
 
         <div className="have-your-account">
-            <p className="have-your-account">Already have an account?<span className="have-your-account"> Sign in!</span></p>
+            <p className="have-your-account">Already have an account?</p><IonButton className="have-your-account" fill="clear" size="small" routerLink="/login"><span className="have-your-account">Sign in!</span></IonButton>
         </div>
 
       </IonContent>
