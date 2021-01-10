@@ -33,7 +33,7 @@ const Login: React.FC = () => {
                 <IonInput value={password} type="password"></IonInput>
             </IonItem>
             <div className="login-in-button">
-			    <IonButton mode="ios" expand="block" routerLink="login">Sign In</IonButton>
+			    <IonButton mode="ios" expand="block" routerLink="/storeselect">Sign In</IonButton>
 		    </div>
         </div>
 

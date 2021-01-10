@@ -24,6 +24,7 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 import Register from './pages/Register';
+import StoreSelect from './pages/StoreSelect';
 
 const App: React.FC = () => (
   <IonApp>
@@ -32,7 +33,7 @@ const App: React.FC = () => (
         <Route path="/home" component={Home} exact={true} />
         <Route path="/login" component={Login} exact={true} />
         <Route path="/register" component={Register} exact={true} />
-        {/* <Route path="/home" component={Home} exact={true} /> */}
+        <Route path="/storeselect" component={StoreSelect} exact={true} />
         <Route exact path="/" render={() => <Redirect to="/home" />} />
       </IonRouterOutlet>
     </IonReactRouter>
