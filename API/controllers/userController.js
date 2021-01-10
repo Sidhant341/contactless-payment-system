@@ -65,7 +65,25 @@ const removeFromCart = async(req, res) => {
     }
 }
 
+const viewCart = async(req, res) => {
+    try {
+        const { id } = jwt.verify(
+            req.headers.authorization.split(' ')[1],
+            process.env.JWTSECRET
+          );
+        const { order_id } = req.body;
+        const { rows } = await db.query(`SELECT * FROM order_items where order_id=${order_id}`)
+        if(rows.length > 0)
+            res.status(200).send(rows)
+        else 
+            res.status(400).send('Bad request');
+    } catch(err) {
+        res.status(500).send(err)
+    }
+}
+
 module.exports = {
     addToCart,
-    removeFromCart
+    removeFromCart,
+    viewCart
 }

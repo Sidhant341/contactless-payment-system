@@ -14,7 +14,7 @@ router.use((req, res, next) => {
     next();
 });
 
-router.post('/add-to-cart/', auth, user.addToCart);
+router.post('/add-to-cart/', auth, user.addToCart)
 router.post('/remove-from-cart/', auth, user.removeFromCart)
-
+router.get('/view-cart/', auth, user.viewCart)
 module.exports = router;
