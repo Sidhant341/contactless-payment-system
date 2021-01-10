@@ -24,10 +24,10 @@ const Home: React.FC = () => {
 		</div>
 
 		<div className="sign-up-button">
-			<IonButton expand="block" color="dark">Sign Up</IonButton>
+			<IonButton mode="ios" expand="block" fill="outline"><span className="sign-up-button">Sign Up</span></IonButton>
 		</div>
 		<div className="sign-in-button">
-			<IonButton expand="block">Sign In</IonButton>
+			<IonButton mode="ios" expand="block">Sign In</IonButton>
 		</div>
 
       </IonContent>

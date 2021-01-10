@@ -76,6 +76,15 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-light-tint: #f5f6f9;
 }
 
+@font-face {
+  font-family: 'Roboto';
+  src: url('../assets/Roboto-Regular.ttf');
+}
+
+* {
+  font-family: 'Roboto';
+}
+
 /* @media (prefers-color-scheme: dark) { */
   /*
    * Dark Colors
