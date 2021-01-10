@@ -1,0 +1,47 @@
+div.home-screen-heading {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-left: 5%;
+}
+
+h1.home-screen-heading {
+    font-size: 300%;
+    font-weight: bold;
+}
+
+span.top-sentence {
+    display: block;
+}
+
+div.sign-in-button {
+    margin: auto;
+    position: absolute;
+    bottom: 12%;
+    left: 0;
+    right: 0;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 80%;
+}
+
+div.sign-up-button {
+    margin: auto;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    right: 0;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 80%;
+}
+
+ion-app {
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+ion-content{
+    --ion-background-color: linear-gradient(to bottom right, #43e97b, #38f9d7);
+}
