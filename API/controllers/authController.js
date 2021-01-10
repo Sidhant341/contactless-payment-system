@@ -30,6 +30,25 @@ const login = async(req, res) => {
     }
 }
 
+const register = async(req, res) => {
+    try {
+        const { first_name, last_name, email, isadmin } = req.body
+        let { password } = req.body
+
+        const { rows } = await db.query(`SELECT * FROM customers where email = '${email}'`)
+        if(rows.length)
+            return res.status(400).json('Email registered!')
+        const salt = await bcrypt.genSalt(10);
+        password = await bcrypt.hash(password, salt);
+        const result = await db.query(`INSERT INTO customers(first_name, last_name, email, password, isadmin) VALUES($1, $2, $3, $4, $5)`, 
+        [first_name, last_name, email, password, isadmin])
+
+        res.status(200).json(result);
+    } catch (err) {
+        res.status(500).send(err.message);
+    }
+}
+
 module.exports = {
     login
 }
