@@ -27,7 +27,7 @@ const Home: React.FC = () => {
 			<IonButton mode="ios" expand="block" fill="outline" routerLink="/register"><span className="sign-up-button">Sign Up</span></IonButton>
 		</div>
 		<div className="sign-in-button">
-			<IonButton mode="ios" expand="block" routerLink="login">Sign In</IonButton>
+			<IonButton mode="ios" expand="block" routerLink="/login">Sign In</IonButton>
 		</div>
 
       </IonContent>

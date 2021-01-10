@@ -6,11 +6,46 @@
 div.login-screen-heading {
     margin: auto;
     width: 100%;
-    padding: 10px;
+    padding-top: 30%;
     text-align: center;
 }
 
 h1.login-screen-heading {
-    font-size: 250%;
+    font-size: 240%;
     font-family: RobotoBold;
+}
+
+div.login-screen-sub-heading {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+p.login-screen-sub-heading {
+    font-size: 120%;
+}
+
+div.login-page-form {
+    padding-top: 20%;
+}
+
+div.login-in-button {
+    padding-top: 30%;
+    width: 80%;
+    justify-content: center;
+    align-content: center;
+    /* display: inline; */
+}
+
+div.create-your-account {
+    margin: auto;
+    width: 100%;
+    padding-top: 1%;
+    text-align: center;
+}
+
+span.create-your-account {
+    color: blue;
+    font-weight: bold;
+    display: inline;
 }
