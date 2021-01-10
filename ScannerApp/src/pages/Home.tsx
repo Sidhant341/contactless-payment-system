@@ -19,7 +19,7 @@ const Home: React.FC = () => {
         <ExploreContainer /> */}
 		<div className="home-screen-heading">
 			<IonText>
-				<h1 className="home-screen-heading"><span className="top-sentence">Welcome to</span> Scan & Go</h1>
+				<h1 className="home-screen-heading"><span className="top-sentence">Welcome to</span> MoboShop</h1>
 			</IonText>
 		</div>
 

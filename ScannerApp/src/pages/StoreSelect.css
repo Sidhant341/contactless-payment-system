@@ -1,3 +1,20 @@
 div.google-maps {
     height: 100%;
 }
+
+.my-custom-class {
+    --max-height: 35%;
+    --max-width: 95%;
+    --border-radius: 20px;
+    position: fixed;
+    bottom: 0;
+}
+
+.my-custom-class ion-button {
+    justify-content: center;
+    align-items: center;
+}
+
+ion-button.google-maps {
+    width: 50%;
+}
