@@ -4,7 +4,7 @@ import './Home.css';
 
 const Home: React.FC = () => {
   return (
-    <IonPage>
+    <IonPage className="home-page">
       {/* <IonHeader>
         <IonToolbar>
           <IonTitle>Blank</IonTitle>
@@ -24,10 +24,10 @@ const Home: React.FC = () => {
 		</div>
 
 		<div className="sign-up-button">
-			<IonButton mode="ios" expand="block" fill="outline"><span className="sign-up-button">Sign Up</span></IonButton>
+			<IonButton mode="ios" expand="block" fill="outline" routerLink="/register"><span className="sign-up-button">Sign Up</span></IonButton>
 		</div>
 		<div className="sign-in-button">
-			<IonButton mode="ios" expand="block">Sign In</IonButton>
+			<IonButton mode="ios" expand="block" routerLink="login">Sign In</IonButton>
 		</div>
 
       </IonContent>

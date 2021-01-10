@@ -46,7 +46,7 @@ div.sign-up-button {
     width: 80%;
 }
 
-ion-content{
+.home-page {
     --ion-background-color: linear-gradient(to bottom, #414188, #0F0F20);
 }
 

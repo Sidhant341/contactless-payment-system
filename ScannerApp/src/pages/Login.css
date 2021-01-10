@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('../assets/Roboto-Bold.ttf');
+}
+
+div.login-screen-heading {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+h1.login-screen-heading {
+    font-size: 250%;
+    font-family: RobotoBold;
+}
