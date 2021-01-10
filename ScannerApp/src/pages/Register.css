@@ -3,50 +3,59 @@
     src: url('../assets/Roboto-Bold.ttf');
 }
 
-div.login-screen-heading {
+div.register-screen-heading {
     margin: auto;
     width: 100%;
     padding-top: 30%;
     text-align: center;
 }
 
-h1.login-screen-heading {
+h1.register-screen-heading {
     font-size: 240%;
     font-family: RobotoBold;
 }
 
-div.login-screen-sub-heading {
+div.register-screen-sub-heading {
     margin: auto;
     width: 100%;
     text-align: center;
 }
 
-p.login-screen-sub-heading {
+p.register-screen-sub-heading {
     font-size: 120%;
 }
 
-div.login-page-form {
+div.register-page-form {
     padding-top: 20%;
 }
 
-div.login-in-button {
-    padding-top: 30%;
-    width: 80%;
+div.register-in-button {
     display: flex;
     align-items: center; 
     justify-content: center;
-    /* display: inline; */
+    padding-top: 30%;
 }
 
-div.create-your-account {
+div.have-your-account {
     margin: auto;
     width: 100%;
     padding-top: 1%;
     text-align: center;
 }
 
-span.create-your-account {
-    color: #3880ff;
+span.have-your-account {
+    color: blue;
     font-weight: bold;
     display: inline;
+}
+
+.terms-and-conditions {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding-top: 9%;
+}
+
+ion-label {
+    padding-left: 2%;
 }
