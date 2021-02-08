@@ -12,6 +12,16 @@ on your way!
 Existing autonomous checkout solutions are expensive or require a lot of hardware. Our app suggests
 a much more economically viable alternative by using the customer's phone as a means to shop.
 
+
+# Awards Won
+
+## <div align="center" style="font-size: 30px">🏆Honorable Mention at nwHacks 2021🏆</div>
+### <div align="center" style="font-size: 15px">Western Canada's Largest Hackathon with ~ 800 participants </div>
+### <div align="center" ><img src ="https://user-images.githubusercontent.com/48921721/107247834-c0cd5500-6a42-11eb-8cbc-cfb46ddd7e73.png" style="vertical-align:middle; align:center"></div>
+
+#### <div align="center" >https://devpost.com/software/moboshop</div>
+
+
 ## Model
 
 ![alt text](https://lucidworks.com/wp-content/uploads/2019/05/tf_logo_1200x420.png)
